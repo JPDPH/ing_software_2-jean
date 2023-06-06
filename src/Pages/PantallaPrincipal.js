@@ -7,7 +7,7 @@ import ListaViajes from "./Datos/ListaViajes"
 
 
 const PPrincipal = () => {
-
+    let borrar
     const [listadoViajes, setListadoViajes]=useState([])
     const [datosRecividos, setDatosReciv]=useState([]) 
 
