@@ -10,7 +10,7 @@ const PPrincipal = () => {
 
     const [listadoViajes, setListadoViajes]=useState([])
     const [datosRecividos, setDatosReciv]=useState([]) 
-    
+
     const obtnerData = (datos) => {
         console.log(datos);
         setDatosReciv(datos) 
